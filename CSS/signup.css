@@ -1,0 +1,11 @@
+.container {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 3fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "sign_up pic"; 
+  }
+  .sign_up { grid-area: sign_up; }
+  .pic { grid-area: pic; }
