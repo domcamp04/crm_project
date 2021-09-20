@@ -9,3 +9,31 @@
   }
   .sign_up { grid-area: sign_up; }
   .pic { grid-area: pic; }
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px; 
+    margin-top: 100px;
+}
+
+/* .r_pic{
+    height: 80%;
+    width: auto;
+    place-self: center;
+    /* margin-top: 75px;
+    margin-left: 75px; } */ */
+
+
+.card-body{
+    justify-content: space-between;
+}
+
+.form-control{
+    border-radius: 10;
+    color: black;
+}
+
+.soc_links{
+    justify-content: space-between;
+}
